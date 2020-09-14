@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.rhdhv</groupId>
+        <artifactId>product-service-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.rhdhv.application</groupId>
+    <artifactId>application</artifactId>
+    <version>${parent.version}</version>
+    <packaging>pom</packaging>
+    <name>product-service-application</name>
+    <description>Product Service Application Module</description>
+
+    <modules>
+        <module>product-service-web</module>
+    </modules>
+</project>
